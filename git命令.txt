@@ -1,55 +1,55 @@
-·Çgit£º
-echo aasss >> aa.txt Éú³Éaa.txt ²¢Ğ´ÈëÄÚÈİ aasss
-touch ÎÄ¼şÃû ´´½¨ÎÄ¼ş
-vi ÎÄ¼şÃû ĞŞ¸ÄÎÄ¼ş   ½øÈ¥ºó°´i£»ÍË³ö°´esc£¬È»ºóÊäÈë:wq
+égitï¼š
+echo aasss >> aa.txt ç”Ÿæˆaa.txt å¹¶å†™å…¥å†…å®¹ aasss
+touch æ–‡ä»¶å åˆ›å»ºæ–‡ä»¶
+vi æ–‡ä»¶å ä¿®æ”¹æ–‡ä»¶   è¿›å»åæŒ‰iï¼›é€€å‡ºæŒ‰escï¼Œç„¶åè¾“å…¥:wq
 
-gitÃüÁî£¨½øÈëGitÎÄ¼ş¼Ğ£©
-git init ÉÏ´«µÚÒ»²½
-git add 1.txt °Ñ1.txtÌí¼Óµ½»º´æÇø
-git commit -m "14:15"  °Ñ»º´æÇøµÄÎÄ¼şÌí¼Óµ½ÀúÊ·¼ÇÂ¼Çø²¢Ìí¼Ó±¸×¢14:15
-git status  ²é¿´×´Ì¬
-git reflog  ²é¿´ÀúÊ·¼ÇÂ¼
-git log   ²é¿´ÓÃ»§Ãû£¬ÓÊÏä¼°²Ù×÷Ê±¼ä
-git log --pretty=oneline ²é¿´°æ±¾ĞÅÏ¢ »áÊ¡ÂÔºÜ¶àÎŞÓÃĞÅÏ¢
-git reset --hard fcfe3a7  ÇĞ»»µ½idÎªfcfe3a7µÄ¼ÇÂ¼
-git push -f Ìá½» ×¢ÒâÇĞ»»Ö¸¶¨°æ±¾µÄÊ±ºòpushÒª¼ÓÉÏ-f
-git rm 1.txt É¾³ı1.txt -------------------------
-git reset HEAD ³·Ïú                             |»Ö¸´É¾³ıµÄÄÚÈİ
-git checkout -- 1.txt Ôİ´æÇø»Ö¸´µ½¹¤×÷Çø---------
-git checkout -b dev ´´½¨×Ó·ÖÖ§dev²¢ÇĞ»»µ½dev
-git branch  ²é¿´±¾µØ·ÖÖ§
-git branch -r ²é¿´Ô¶³Ì·ÖÖ§
-git branch -a ²é¿´ËùÓĞ·ÖÖ§
-git checkout master  ÇĞ»»µ½master·ÖÖ§
-git merge dev  ºÏ²¢×Ó·ÖÖ§dev
-git branch -d dev É¾³ıdev·ÖÖ§£¨Ê§°ÜÁË¾Í´óĞ´-dÊÔÊÔ£©
-git tag v1.0   ¸øµ±Ç°Ìí¼Ó±êÇ©
-git tag v2.0 cc170be  ¸øÄ³¸öidµÄÌí¼Ó±êÇ©
-git tag        ²é¿´±êÇ©
-git show v2.0  ²é¿´Ö¸¶¨±êÇ©
-git tag -d v2.0 É¾³ıÖ¸¶¨±êÇ©
-git push --tags Ìá½»ËùÓĞµÄ±êÇ©
-git push origin [tagnames] Ìá½»Ö¸¶¨±êÇ©
-git push origin -v1.0  ÉÏ´«µ½github
-git push origin:refs/tags/v1.0 É¾³ıÔ¶³Ì±êÇ©
-.gitignore ÉèÖÃºöÂÔÄ¿Â¼(ÊÇÒ»¸öÎÄ¼ş)  //°ü¹üµÄÎÄ¼ş¼Ğ   *.txtÎÄ¼ş
-git diff  ²é¿´²îÒì
+gitå‘½ä»¤ï¼ˆè¿›å…¥Gitæ–‡ä»¶å¤¹ï¼‰
+git init ä¸Šä¼ ç¬¬ä¸€æ­¥
+git add 1.txt æŠŠ1.txtæ·»åŠ åˆ°ç¼“å­˜åŒº
+git commit -m "14:15"  æŠŠç¼“å­˜åŒºçš„æ–‡ä»¶æ·»åŠ åˆ°å†å²è®°å½•åŒºå¹¶æ·»åŠ å¤‡æ³¨14:15
+git status  æŸ¥çœ‹çŠ¶æ€
+git reflog  æŸ¥çœ‹å†å²è®°å½•
+git log   æŸ¥çœ‹ç”¨æˆ·åï¼Œé‚®ç®±åŠæ“ä½œæ—¶é—´
+git log --pretty=oneline æŸ¥çœ‹ç‰ˆæœ¬ä¿¡æ¯ ä¼šçœç•¥å¾ˆå¤šæ— ç”¨ä¿¡æ¯
+git reset --hard fcfe3a7  åˆ‡æ¢åˆ°idä¸ºfcfe3a7çš„è®°å½•
+git push -f æäº¤ æ³¨æ„åˆ‡æ¢æŒ‡å®šç‰ˆæœ¬çš„æ—¶å€™pushè¦åŠ ä¸Š-f
+git rm 1.txt åˆ é™¤1.txt -------------------------
+git reset HEAD æ’¤é”€                             |æ¢å¤åˆ é™¤çš„å†…å®¹
+git checkout -- 1.txt æš‚å­˜åŒºæ¢å¤åˆ°å·¥ä½œåŒº---------
+git checkout -b dev åˆ›å»ºå­åˆ†æ”¯devå¹¶åˆ‡æ¢åˆ°dev
+git branch  æŸ¥çœ‹æœ¬åœ°åˆ†æ”¯
+git branch -r æŸ¥çœ‹è¿œç¨‹åˆ†æ”¯
+git branch -a æŸ¥çœ‹æ‰€æœ‰åˆ†æ”¯
+git checkout master  åˆ‡æ¢åˆ°masteråˆ†æ”¯
+git merge dev  åˆå¹¶å­åˆ†æ”¯dev
+git branch -d dev åˆ é™¤devåˆ†æ”¯ï¼ˆå¤±è´¥äº†å°±å¤§å†™-dè¯•è¯•ï¼‰
+git tag v1.0   ç»™å½“å‰æ·»åŠ æ ‡ç­¾
+git tag v2.0 cc170be  ç»™æŸä¸ªidçš„æ·»åŠ æ ‡ç­¾
+git tag        æŸ¥çœ‹æ ‡ç­¾
+git show v2.0  æŸ¥çœ‹æŒ‡å®šæ ‡ç­¾
+git tag -d v2.0 åˆ é™¤æŒ‡å®šæ ‡ç­¾
+git push --tags æäº¤æ‰€æœ‰çš„æ ‡ç­¾
+git push origin [tagnames] æäº¤æŒ‡å®šæ ‡ç­¾
+git push origin -v1.0  ä¸Šä¼ åˆ°github
+git push origin:refs/tags/v1.0 åˆ é™¤è¿œç¨‹æ ‡ç­¾
+.gitignore è®¾ç½®å¿½ç•¥ç›®å½•(æ˜¯ä¸€ä¸ªæ–‡ä»¶)  //åŒ…è£¹çš„æ–‡ä»¶å¤¹   *.txtæ–‡ä»¶
+git diff  æŸ¥çœ‹å·®å¼‚
 
 -------------------------------------------------------------------
-GitÉÏ´«²½Öè
-1.github ĞÂ½¨¹¤³ÌÏîÄ¿£¬²¢¸´ÖÆÏîÄ¿µØÖ·
-2.GitÉÏgit clone µØÖ·
+Gitä¸Šä¼ æ­¥éª¤
+1.github æ–°å»ºå·¥ç¨‹é¡¹ç›®ï¼Œå¹¶å¤åˆ¶é¡¹ç›®åœ°å€
+2.Gitä¸Šgit clone åœ°å€
 3.git bare init
-4.°ÑÄãÒªÉÏ´«µÄ¶«Î÷·ÅÔÚcloneºóÉú³ÉµÄÄ¿Â¼ÏÂ
-5.ÇĞ»»µ½cloneÉú³ÉºóµÄÄ¿Â¼
-6.ÉèÖÃºöÂÔÏî
-7.git add .  git commit -m '±¸×¢'
-8.git push -u origin ·ÖÖ§Ãû
+4.æŠŠä½ è¦ä¸Šä¼ çš„ä¸œè¥¿æ”¾åœ¨cloneåç”Ÿæˆçš„ç›®å½•ä¸‹
+5.åˆ‡æ¢åˆ°cloneç”Ÿæˆåçš„ç›®å½•
+6.è®¾ç½®å¿½ç•¥é¡¹
+7.git add .  git commit -m 'å¤‡æ³¨'
+8.git push -u origin åˆ†æ”¯å
 
 _______________________________________________________________________
 
-git À­È¡²½Öè
-1.ÏÈĞÂ½¨Ò»¸öÄ¿Â¼
-2.git config --global uer.name "ÄãµÄgithubÃû×Ö"  git config --global uer.email "ÄãµÄÓÊÏä"
-3.ssh-keygen -t rsa -C "ÄãµÄÓÊÏä"  ÊäÈëÎÄ¼şÃû ÊäÈëÃÜÂë
-4.git clone githubÉÏµÄµØÖ·
+git æ‹‰å–æ­¥éª¤
+1.å…ˆæ–°å»ºä¸€ä¸ªç›®å½•
+2.git config --global uer.name "ä½ çš„githubåå­—"  git config --global uer.email "ä½ çš„é‚®ç®±"
+3.ssh-keygen -t rsa -C "ä½ çš„é‚®ç®±"  è¾“å…¥æ–‡ä»¶å è¾“å…¥å¯†ç 
+4.git clone githubä¸Šçš„åœ°å€
