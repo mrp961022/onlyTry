@@ -17,7 +17,7 @@ aa.txt // 文件
 * git reflog  查看历史记录
 * git log   查看用户名，邮箱及操作时间
 * git log --pretty=oneline 查看版本信息 会省略很多无用信息
-* git reset --hard fcfe3a7  切换到id为fcfe3a7的记录
+* git reset --hard fcfe3a7  切换到id为fcfe3a7的记录 id就是那一长串文本的前7位
 * git push -f 提交 注意切换指定版本的时候push要加上-f
 * git rm 1.txt 删除1.txt -------------------------
 * git reset HEAD 撤销                             |恢复删除的内容
