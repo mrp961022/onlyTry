@@ -5,6 +5,11 @@
 * vi 文件名 修改文件   进去后按i；退出按esc，然后输入:wq
 
 ## git命令（进入Git文件夹）
+> .gitignore 设置忽略目录(是一个文件)  //包裹的文件夹   *.txt文件 写法如下
+```
+/node_modules // 文件夹
+aa.txt // 文件
+```
 * git init 上传第一步
 * git add 1.txt 把1.txt添加到缓存区
 * git commit -m "14:15"  把缓存区的文件添加到历史记录区并添加备注14:15
@@ -33,7 +38,6 @@
 * git push origin [tagnames] 提交指定标签
 * git push origin -v1.0  上传到github
 * git push origin:refs/tags/v1.0 删除远程标签
-> .gitignore 设置忽略目录(是一个文件)  //包裹的文件夹   *.txt文件
 * git diff  查看差异
 
 -------------------------------------------------------------------
