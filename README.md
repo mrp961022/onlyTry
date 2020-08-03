@@ -10,7 +10,7 @@
 /node_modules // 文件夹
 aa.txt // 文件
 ```
-* git init 上传第一步
+* git init 上传第一步 
 * git add 1.txt 把1.txt添加到缓存区
 * git commit -m "14:15"  把缓存区的文件添加到历史记录区并添加备注14:15
 * git status  查看状态
