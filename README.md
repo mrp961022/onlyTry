@@ -23,12 +23,14 @@ aa.txt // 文件
 * git reset HEAD 撤销                             |恢复删除的内容
 * git checkout -- 1.txt 暂存区恢复到工作区---------
 * git checkout -b dev 创建子分支dev并切换到dev
+git push --set-upstream origin dev 在远程仓库创建dev分支
 * git branch  查看本地分支
 * git branch -r 查看远程分支
 * git branch -a 查看所有分支
 * git checkout master  切换到master分支
 * git merge dev  合并子分支dev
 * git branch -d dev 删除dev分支（失败了就大写-d试试）
+* git push origin --delete dev 删除远程dev分支
 * git tag v1.0   给当前添加标签
 * git tag v2.0 cc170be  给某个id的添加标签
 * git tag        查看标签
