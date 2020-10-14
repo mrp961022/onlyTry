@@ -24,6 +24,7 @@ aa.txt // 文件
 * git checkout -- 1.txt 暂存区恢复到工作区---------
 * git checkout -b dev 创建子分支dev并切换到dev
 * git push --set-upstream origin dev 在远程仓库创建dev分支
+* git fetch 将远程主机的最新内容拉到本地
 * git branch  查看本地分支
 * git branch -r 查看远程分支
 * git branch -a 查看所有分支
